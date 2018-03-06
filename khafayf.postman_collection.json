@@ -1,0 +1,719 @@
+{
+	"id": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+	"name": "khafayf",
+	"description": "",
+	"order": [
+		"04e18046-482a-32dd-04f1-7e30e7a4abe1",
+		"ddaede4b-942d-9831-7e1f-c5dd3d28f355",
+		"bc34362b-afe1-f497-8649-568aa4d5930a",
+		"64f478b2-c6f2-a973-eb71-4e4ec824b4b8",
+		"30e926ef-6a4f-d935-2e29-39b93714aaaf",
+		"30ade291-2f7e-ab9f-db6b-e80a4829f742",
+		"25d2766a-1fc8-2af6-7ab1-664fd74d1227",
+		"7d8485c2-c894-da8f-5727-52cd463d66d9",
+		"570fcd2a-6426-5005-e0f4-08f8566c027f",
+		"e1f64425-51b4-fa50-8252-78072fd82967",
+		"4d971b7b-cd46-34d1-1da8-1d78a701ed7a",
+		"981da2a2-6d99-784f-14d6-5d67a4d6c2af",
+		"3600b54e-1aa4-7224-520a-16d5ae41a098",
+		"b557d0f0-c7de-f4e4-2bf3-0b79c01551ad",
+		"230ce32d-7c4b-680e-7a47-ac54f1c2cc3f",
+		"203c0875-79fe-5918-32fc-5a2b1d51583d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": "1346254",
+	"public": false,
+	"requests": [
+		{
+			"id": "04e18046-482a-32dd-04f1-7e30e7a4abe1",
+			"headers": "Accept: application/json\nAccept-Language: en\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}register",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "mazen",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "manhzffjhnggfhdjken@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "966198928429",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1520086542415,
+			"name": "{{url}}register",
+			"description": "عملية تسجيل الدخول بواسطة الاسم والايميل ورقم الجوال وكلمة المرور في هذه العملية يتم ارسال رسالة للرقم الجوال المدخل بكود التفعيل لن تستطيع تسجيل الدخول الا في حالة كنت مفعل الحساب عن طريق رابط التفعيل التالي \nبالنسبة للغة توضع دائما في الهيدر كما هو موضح في هذه الدالة",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"collection_id": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"preRequestScript": "",
+			"tests": ""
+		},
+		{
+			"id": "203c0875-79fe-5918-32fc-5a2b1d51583d",
+			"headers": "Authorization: Bearer b924615be3db46a5be017e338d9bc0db\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer b924615be3db46a5be017e338d9bc0db",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://api.clxcommunications.com/xms/v1/khafayf32/batches",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"events": [],
+			"auth": null,
+			"method": "POST",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://api.clxcommunications.com/xms/v1/khafayf32/batches",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1519935768849,
+			"version": 2,
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\"from\": \"CLX\",\n\"to\": [\"00966126424426\"],\n\"body\": \"Hi this is my mohamed from gaza\" }",
+			"collection_id": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"preRequestScript": "",
+			"tests": ""
+		},
+		{
+			"id": "230ce32d-7c4b-680e-7a47-ac54f1c2cc3f",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}home_page",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"data": null,
+			"dataMode": "params",
+			"name": "{{url}}home_page",
+			"description": "هذا رابط اضافي اذا تم احتياجه \n ومين يظهر في السلايدرومين يكون مثبت في الصفحة الرئيسية\n",
+			"descriptionFormat": "html",
+			"time": 1520173338507,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "25d2766a-1fc8-2af6-7ab1-664fd74d1227",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}forget_password",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "mohamed.alijla@gmail.com",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520167747985,
+			"name": "{{url}}forget_password",
+			"description": "سيتم ارسال رابط اعادة تعيين كلمة المرورالى الايميل ",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "30ade291-2f7e-ab9f-db6b-e80a4829f742",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImYzMzg5NThlOTYyMDNhYjRkZDJjN2Q1NjRjODllMTAwODhmMDdiYWYwNjEwM2E4ZmRkZWFhMmJlMWVlMWQ2YTEwOTkwOTViNjE5NTllOTk0In0.eyJhdWQiOiI0IiwianRpIjoiZjMzODk1OGU5NjIwM2FiNGRkMmM3ZDU2NGM4OWUxMDA4OGYwN2JhZjA2MTAzYThmZGRlYWEyYmUxZWUxZDZhMTA5OTA5NWI2MTk1OWU5OTQiLCJpYXQiOjE1MjAxNTQzNDQsIm5iZiI6MTUyMDE1NDM0NCwiZXhwIjoxNTUxNjkwMzQ0LCJzdWIiOiI2MiIsInNjb3BlcyI6W119.LhpPIox6MGX713w5S8-oZm8vTa5NI2vYDe66Y1kLuoeH6Qrgn7sqjM1h_BZ584sC-rnpNlNajE_MoJu1djFXu55IgpE32wZKktowFZsEGd2b7z6rE5ASUtWduxiqqqwNFJpVG0eTtrrl5nU_sC0ZcvsFg3IdF0l5eo36D49m4M75OpNT6f8ehxD8bxBtc-OdjnXhef1lhz56eZLJS5qJmgHAms0vtopTF68vYR5pU-FbYGTUXaaVDtbMm_M66ZuiM4MDdLcvQcOHEkEyQOl-Q3V_HFG1vGZchbjeGePm7DGBv4AIgvrIAXh3X31l0kjTQubnh5nbuW4493-rcL81jyyFHzcYTkuvjxho8IDz6P0_kMOaq5Qe9fShtJIy3ER1cgL4BhhIc98kheq0aNNRBpfGtK3Ga22yEzB5uFg3dAFymmXb6IJoPJrl_-68K5GatkuLoUIsUk75dOwEWZ6_Sm4PQN3GfG4jvV_03T1Yt86k2niYe84ixZDbS9VdVQv0NKgPXao2XKggBTCIAeMfWsY9XtHMgl8mHx7y5bl8I_gHAxmNuo8EmUjHbc8sp6vlwS3fSnndZ6Fxi1wa7llVbOR2jiL87zIoghwxVIhHGVGOo6slK_xdH1fLB2Rc2vUWx9WdwXkDufHGiENiRkezygzGjfiv7w2107L0N88SIkw\nAccept-Language: ar\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImYzMzg5NThlOTYyMDNhYjRkZDJjN2Q1NjRjODllMTAwODhmMDdiYWYwNjEwM2E4ZmRkZWFhMmJlMWVlMWQ2YTEwOTkwOTViNjE5NTllOTk0In0.eyJhdWQiOiI0IiwianRpIjoiZjMzODk1OGU5NjIwM2FiNGRkMmM3ZDU2NGM4OWUxMDA4OGYwN2JhZjA2MTAzYThmZGRlYWEyYmUxZWUxZDZhMTA5OTA5NWI2MTk1OWU5OTQiLCJpYXQiOjE1MjAxNTQzNDQsIm5iZiI6MTUyMDE1NDM0NCwiZXhwIjoxNTUxNjkwMzQ0LCJzdWIiOiI2MiIsInNjb3BlcyI6W119.LhpPIox6MGX713w5S8-oZm8vTa5NI2vYDe66Y1kLuoeH6Qrgn7sqjM1h_BZ584sC-rnpNlNajE_MoJu1djFXu55IgpE32wZKktowFZsEGd2b7z6rE5ASUtWduxiqqqwNFJpVG0eTtrrl5nU_sC0ZcvsFg3IdF0l5eo36D49m4M75OpNT6f8ehxD8bxBtc-OdjnXhef1lhz56eZLJS5qJmgHAms0vtopTF68vYR5pU-FbYGTUXaaVDtbMm_M66ZuiM4MDdLcvQcOHEkEyQOl-Q3V_HFG1vGZchbjeGePm7DGBv4AIgvrIAXh3X31l0kjTQubnh5nbuW4493-rcL81jyyFHzcYTkuvjxho8IDz6P0_kMOaq5Qe9fShtJIy3ER1cgL4BhhIc98kheq0aNNRBpfGtK3Ga22yEzB5uFg3dAFymmXb6IJoPJrl_-68K5GatkuLoUIsUk75dOwEWZ6_Sm4PQN3GfG4jvV_03T1Yt86k2niYe84ixZDbS9VdVQv0NKgPXao2XKggBTCIAeMfWsY9XtHMgl8mHx7y5bl8I_gHAxmNuo8EmUjHbc8sp6vlwS3fSnndZ6Fxi1wa7llVbOR2jiL87zIoghwxVIhHGVGOo6slK_xdH1fLB2Rc2vUWx9WdwXkDufHGiENiRkezygzGjfiv7w2107L0N88SIkw",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "ar",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}reset_password",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "old_password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "new_password",
+					"value": "123123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "confirm_new_password",
+					"value": "123123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520167757663,
+			"name": "{{url}}reset_password",
+			"description": "",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "30e926ef-6a4f-d935-2e29-39b93714aaaf",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijc4NTA1MGQ3MTA3MDMyYTAwNDM5NWE2MjE1MDM0NWZlODM0YTQxYTVlMzhmZTA1ZDBhZTYwNWIwMzI2OWU3YzljNjdhYjc3ZjlkMTRlNjYyIn0.eyJhdWQiOiI0IiwianRpIjoiNzg1MDUwZDcxMDcwMzJhMDA0Mzk1YTYyMTUwMzQ1ZmU4MzRhNDFhNWUzOGZlMDVkMGFlNjA1YjAzMjY5ZTdjOWM2N2FiNzdmOWQxNGU2NjIiLCJpYXQiOjE1MjAxNTQyOTIsIm5iZiI6MTUyMDE1NDI5MiwiZXhwIjoxNTUxNjkwMjkyLCJzdWIiOiI2MiIsInNjb3BlcyI6W119.nWntF7Z-Mgy_B72gh1O5Igqw2VTyK6XAc80YRXcY-w7vRWFHDFJSKFytKu_2ByzUu9jhCHL8K_L9AKZzw-fx4QKZ32JH2W_vNY3-i74L5g-9UuWnVCLWeeBP_RyOob9F9i8KDTFcs5gvpa87816_yrRYCV0R-e4WTRyv2OA-6GVxuGBi2ovKA6-uxWhkpHMZdJaPaJcA1x1b0i5rd1cYsYMHOIctowCZKOLrcvflpdcpaNC7uq9V_ijznMlaMqBCThaVNb0OyzKK5PktmucfmR04ZKyAub_YQazCBARb_cpLAGLqevN_jEHwAttFaKMaxCEWhRTYfsAJPkopCYVQkXLLL2UN7JCaW00zsWR2xEIFVE85Al-Q7asMmZAYRleG4O5eaPQV0zu3vM-ZqBs9KF5D4jkzKldicYpGqmwU81AIYC3eKbYL06PAa2z-nMsCzJ6PKubnEMsxPBxBAToxs-4bMx8RYOtFWEiopfYeMaLNYRHlfTe9qhzEAPsN99XkZMaJuFiJndCULjybbSrqmRcSEXXE0Jd1lKLD4wOgotOzi7lNNof-osWPmpqT31VnRe8rERJok00Y6e5soaM_zTN7qr_eXMGCVV_9auPgiXguVyBBTvhFXrGcCD6Wi4RhCG3XoBwpCUZtFw8mIXRGHxCp03paXdEi_R5fClK8ako\nAccept-Language: en\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijc4NTA1MGQ3MTA3MDMyYTAwNDM5NWE2MjE1MDM0NWZlODM0YTQxYTVlMzhmZTA1ZDBhZTYwNWIwMzI2OWU3YzljNjdhYjc3ZjlkMTRlNjYyIn0.eyJhdWQiOiI0IiwianRpIjoiNzg1MDUwZDcxMDcwMzJhMDA0Mzk1YTYyMTUwMzQ1ZmU4MzRhNDFhNWUzOGZlMDVkMGFlNjA1YjAzMjY5ZTdjOWM2N2FiNzdmOWQxNGU2NjIiLCJpYXQiOjE1MjAxNTQyOTIsIm5iZiI6MTUyMDE1NDI5MiwiZXhwIjoxNTUxNjkwMjkyLCJzdWIiOiI2MiIsInNjb3BlcyI6W119.nWntF7Z-Mgy_B72gh1O5Igqw2VTyK6XAc80YRXcY-w7vRWFHDFJSKFytKu_2ByzUu9jhCHL8K_L9AKZzw-fx4QKZ32JH2W_vNY3-i74L5g-9UuWnVCLWeeBP_RyOob9F9i8KDTFcs5gvpa87816_yrRYCV0R-e4WTRyv2OA-6GVxuGBi2ovKA6-uxWhkpHMZdJaPaJcA1x1b0i5rd1cYsYMHOIctowCZKOLrcvflpdcpaNC7uq9V_ijznMlaMqBCThaVNb0OyzKK5PktmucfmR04ZKyAub_YQazCBARb_cpLAGLqevN_jEHwAttFaKMaxCEWhRTYfsAJPkopCYVQkXLLL2UN7JCaW00zsWR2xEIFVE85Al-Q7asMmZAYRleG4O5eaPQV0zu3vM-ZqBs9KF5D4jkzKldicYpGqmwU81AIYC3eKbYL06PAa2z-nMsCzJ6PKubnEMsxPBxBAToxs-4bMx8RYOtFWEiopfYeMaLNYRHlfTe9qhzEAPsN99XkZMaJuFiJndCULjybbSrqmRcSEXXE0Jd1lKLD4wOgotOzi7lNNof-osWPmpqT31VnRe8rERJok00Y6e5soaM_zTN7qr_eXMGCVV_9auPgiXguVyBBTvhFXrGcCD6Wi4RhCG3XoBwpCUZtFw8mIXRGHxCp03paXdEi_R5fClK8ako",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}update",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "mdcdn@g.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "mohddd",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "966149226426",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520154355647,
+			"name": "{{url}}update",
+			"description": "",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "3600b54e-1aa4-7224-520a-16d5ae41a098",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}faq",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520170329411,
+			"name": "{{url}}faq",
+			"description": "مركز المساعدة \nسؤال \nوجواب",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "4d971b7b-cd46-34d1-1da8-1d78a701ed7a",
+			"headers": "Accept: application/json\nAccept-Language: en\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}message_contact",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "mohamed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "05999895357",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "mohamed.alijla@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "details",
+					"value": "hi my name mohamed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520170188626,
+			"name": "{{url}}message_contact",
+			"description": "هذه للتواصل رسائل تصل الادمن بانل",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "570fcd2a-6426-5005-e0f4-08f8566c027f",
+			"headers": "Accept: application/json\nAccept-Language: en\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}all_pages",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520168419479,
+			"name": "{{url}}all_pages",
+			"description": "هنا يتم ارجاع كافة الصفحات في التطبيق لو شادت النتائج ستلاحظ هناك مايسمي \nslug\nعن طريقه يتم طلب بيانات الصفحة من الرابط التالي \nتضع السلق وترجع بيانات الصفحة المراد",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "64f478b2-c6f2-a973-eb71-4e4ec824b4b8",
+			"headers": "Accept: application/json\n//Accept-Language: ar\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "ar",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{url}}login",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "mobile",
+					"value": "966149226426",
+					"description": "هذه عملية تسجيل الدخول بواسطة ",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520167753979,
+			"name": "{{url}}login",
+			"description": "",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "7d8485c2-c894-da8f-5727-52cd463d66d9",
+			"headers": "Accept: application/json\nAuthorization: Bearer\nAccept-Language: en\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}fcm_token",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "هنا يتم اضافة توكن الفيربيس لكل يوزر",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "type",
+					"value": "النوع واحد في حالة الاندرويد 2 في حالى ios",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520168351705,
+			"name": "{{url}}fcm_token",
+			"description": "هذا الرابط يتم فيه ارسال توكن الفير بيس والنوع يكون ١ في حالة الاندرويد و ٢ في حالةالايواس\n\nكل شخص عند دخوله  للتطبيق وقام بعمل تسجيل دخول تقوم بتشغيل هذا الرابط\n\n وبهذا يتم تخزين توكن الفيربيس كل شخص في الداتا بيز\n ليتم ارسال نتوفيكشن عند الضرورة",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "981da2a2-6d99-784f-14d6-5d67a4d6c2af",
+			"headers": "Accept: application/json\nAccept-Language: en\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}ads",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "mohamed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "05999895357",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "mohamed.alijla@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "details",
+					"value": "hi my name mohamed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520170192010,
+			"name": "{{url}}settings",
+			"description": "هذه فيها كل ما هو مطلوب حول التطبيق مثل السوشيال ميديا \nومعلومات المكان \nوصور وروابط تابعة للتطبيق",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "b557d0f0-c7de-f4e4-2bf3-0b79c01551ad",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}all_products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520173212193,
+			"name": "{{url}}home_page",
+			"description": "تفاصيل المنتج  \nاسم الشركة بالعربي والانجليزي \nاسم المنتج بالعربي والانجليزي\nسعره\nمبلغ الخصم \nسعره بعد الخصم \nالكمية \n\n\"slider\": \"1\",\n \"home_page\": \"1\",\nيضاف من الكنترول بانل مين يظهر في السلايدر الى فوق \nومين يكون مثبت في الصفحة الرئيسية\n",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "bc34362b-afe1-f497-8649-568aa4d5930a",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}sendVerificationCode",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "mobile",
+					"value": "966149226426",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520154253761,
+			"name": "{{url}}sendVerificationCode",
+			"description": "رابط اعادة ارسال كود التفعيل الى الجوال عن طريق ارسال رقم هاتفك المخزن في الداتا بيز",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		},
+		{
+			"id": "ddaede4b-942d-9831-7e1f-c5dd3d28f355",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}verify",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"events": [],
+			"auth": null,
+			"method": "POST",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"data": [
+				{
+					"key": "mobile",
+					"value": "999999999999999",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "code",
+					"value": "POUHY",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "{{url}}verify",
+			"description": "هنا يتم عمليه التفعيل بواسطة رقم الجوال والكود الذي وصلك ع الجوال عند عملية التسجيل ",
+			"descriptionFormat": "html",
+			"time": 1520085931299,
+			"version": 2,
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null,
+			"collection_id": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"preRequestScript": "",
+			"tests": ""
+		},
+		{
+			"id": "e1f64425-51b4-fa50-8252-78072fd82967",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}pages/about-us",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520169578616,
+			"name": "{{url}}pages/about-us",
+			"description": "ستلاحظ في هذا الرابط وضعنا \nslug \nالصفحة المراد بيانتها",
+			"collectionId": "927f48f7-2802-d679-caa4-3c3c042cd2b0",
+			"responses": []
+		}
+	]
+}
